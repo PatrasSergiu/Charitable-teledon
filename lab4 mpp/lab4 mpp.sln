@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeledonClient", "lab4 mpp\TeledonClient.csproj", "{14D63B0F-301E-4CA8-AED4-5360ED24B790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeledonServices", "TeledonServices\TeledonServices.csproj", "{3B97AF57-DBB5-41B4-92AA-6040747280FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeledonDomain", "TeledonDomain\TeledonDomain.csproj", "{A1AD289F-05A2-4C0F-AB68-855D4415F177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeledonPersistence", "TeledonPersistence\TeledonPersistence.csproj", "{0DBB0899-789A-4430-A217-EE9041B942DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectServer", "ProjectServer\ProjectServer.csproj", "{971E78D7-52C3-4B8A-AB9B-0321F18516CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectNetworking", "ProjectNetworking\ProjectNetworking.csproj", "{EDFB827B-2530-4841-8836-80EE3B94F98C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14D63B0F-301E-4CA8-AED4-5360ED24B790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D63B0F-301E-4CA8-AED4-5360ED24B790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D63B0F-301E-4CA8-AED4-5360ED24B790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D63B0F-301E-4CA8-AED4-5360ED24B790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B97AF57-DBB5-41B4-92AA-6040747280FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B97AF57-DBB5-41B4-92AA-6040747280FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B97AF57-DBB5-41B4-92AA-6040747280FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B97AF57-DBB5-41B4-92AA-6040747280FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1AD289F-05A2-4C0F-AB68-855D4415F177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AD289F-05A2-4C0F-AB68-855D4415F177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AD289F-05A2-4C0F-AB68-855D4415F177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AD289F-05A2-4C0F-AB68-855D4415F177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBB0899-789A-4430-A217-EE9041B942DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBB0899-789A-4430-A217-EE9041B942DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBB0899-789A-4430-A217-EE9041B942DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBB0899-789A-4430-A217-EE9041B942DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971E78D7-52C3-4B8A-AB9B-0321F18516CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971E78D7-52C3-4B8A-AB9B-0321F18516CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971E78D7-52C3-4B8A-AB9B-0321F18516CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971E78D7-52C3-4B8A-AB9B-0321F18516CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDFB827B-2530-4841-8836-80EE3B94F98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFB827B-2530-4841-8836-80EE3B94F98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFB827B-2530-4841-8836-80EE3B94F98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFB827B-2530-4841-8836-80EE3B94F98C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47ACA155-C059-48B8-93FD-A37115240868}
+	EndGlobalSection
+EndGlobal

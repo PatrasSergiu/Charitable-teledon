@@ -1,0 +1,13 @@
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\obj\Debug\TeledonServices.csprojAssemblyReference.cache
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\obj\Debug\TeledonServices.csproj.CoreCompileInputs.cache
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\bin\Debug\TeledonServices.dll.config
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\bin\Debug\TeledonServices.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\bin\Debug\TeledonServices.pdb
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\bin\Debug\nunit.framework.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\bin\Debug\TeledonDomain.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\bin\Debug\TeledonDomain.pdb
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\bin\Debug\TeledonDomain.dll.config
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\bin\Debug\nunit.framework.xml
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\obj\Debug\TeledonServices.csproj.CopyComplete
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\obj\Debug\TeledonServices.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonServices\obj\Debug\TeledonServices.pdb

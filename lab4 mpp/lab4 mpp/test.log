@@ -1,0 +1,596 @@
+﻿18 Mar 2021 13:21:51,994 INFO  lab4_mpp.Repository.DonatorDBRepository 52 FindOne - Entering findOne with value 1
+18 Mar 2021 13:21:52,019 INFO  lab4_mpp.Repository.DonatorDBRepository 77 FindOne - Entering findOne with value 1
+18 Mar 2021 13:28:30,950 INFO  lab4_mpp.Repository.DonatorDBRepository 120 Save - save exited with value 1
+18 Mar 2021 13:28:30,972 INFO  lab4_mpp.Repository.DonatorDBRepository 24 FindAll - Entering findAll
+18 Mar 2021 13:28:30,975 INFO  lab4_mpp.Repository.DonatorDBRepository 47 FindAll - Exiting findAll with the result from it
+18 Mar 2021 13:28:30,976 INFO  lab4_mpp.Repository.DonatorDBRepository 54 FindOne - Entering findOne with value 3
+18 Mar 2021 13:28:30,977 INFO  lab4_mpp.Repository.DonatorDBRepository 79 FindOne - Entering findOne with value 3
+18 Mar 2021 13:30:51,823 INFO  lab4_mpp.Repository.DonatorDBRepository 19 Delete - entering delete with value 3
+18 Mar 2021 13:31:06,859 INFO  lab4_mpp.Repository.DonatorDBRepository 19 Delete - entering delete with value 3
+18 Mar 2021 13:31:06,983 INFO  lab4_mpp.Repository.DonatorDBRepository 32 Delete - exiting delete
+18 Mar 2021 13:31:06,984 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+18 Mar 2021 13:31:06,988 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+18 Mar 2021 14:21:24,016 INFO  lab4_mpp.Repository.DonatorDBRepository 19 Delete - entering delete with value 3
+18 Mar 2021 14:21:24,117 INFO  lab4_mpp.Repository.DonatorDBRepository 32 Delete - exiting delete
+18 Mar 2021 14:21:24,117 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+18 Mar 2021 14:21:24,121 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 12:03:12,577 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 12:03:12,772 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 12:04:21,080 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 12:04:33,193 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 12:08:45,497 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 12:08:45,589 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 12:24:01,723 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 12:24:01,853 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 12:24:01,863 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 12:26:42,555 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 12:26:42,647 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 12:26:42,655 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 12:26:42,656 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 12:26:42,661 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 12:26:42,662 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 12:29:22,170 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 12:29:22,263 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 12:29:22,272 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 12:29:22,273 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 12:29:22,277 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 12:29:22,278 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 12:30:31,752 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 12:30:31,842 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 12:30:31,852 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 12:30:39,978 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 12:32:07,133 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 12:32:07,228 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 12:32:07,236 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 12:32:16,410 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 12:32:19,799 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 12:32:19,800 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 12:33:10,906 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 12:33:10,998 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 12:33:11,006 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 12:33:20,319 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 12:33:20,422 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 12:33:20,430 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 12:33:20,431 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 12:33:20,437 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 12:33:20,437 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 12:48:37,977 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 12:48:38,070 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 12:48:38,084 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 12:48:38,085 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 12:48:38,091 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 12:48:38,092 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 12:56:19,334 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 12:56:19,428 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 12:56:19,443 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 12:56:19,444 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 12:56:19,449 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 12:56:19,450 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 13:04:04,129 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 13:04:04,223 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 13:04:04,238 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 13:04:04,239 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 13:04:04,244 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 13:04:04,245 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 13:17:40,902 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 13:17:40,996 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 13:17:41,010 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 13:17:41,011 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 13:17:41,016 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 13:17:41,018 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 13:18:25,048 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 13:18:25,142 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 13:18:25,159 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 13:18:25,161 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 13:18:25,167 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 13:18:25,168 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 13:24:06,320 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 13:24:06,415 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 13:24:06,430 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 13:24:06,432 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 13:24:06,437 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 13:24:06,438 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 13:51:43,935 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 13:51:44,032 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 13:51:44,046 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 13:51:44,047 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 13:51:44,053 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 13:51:44,054 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 13:51:49,829 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value Patras, Rodica
+04 Apr 2021 13:51:49,834 INFO  lab4_mpp.Repository.DonatorDBRepository 175 FindByNume - Exiting findByNume with value 2
+04 Apr 2021 14:03:17,564 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:03:17,663 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:03:17,678 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:03:17,679 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:03:17,685 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:03:17,686 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:03:23,084 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value Patras, Rodica
+04 Apr 2021 14:03:23,089 INFO  lab4_mpp.Repository.DonatorDBRepository 175 FindByNume - Exiting findByNume with value 2
+04 Apr 2021 14:03:23,104 INFO  lab4_mpp.Repository.DonatieDBRepository 76 Save - save exited with value 1
+04 Apr 2021 14:03:23,106 INFO  lab4_mpp.Repository.CazDBRepository 136 Update - Entering updateCaz
+04 Apr 2021 14:03:23,107 INFO  lab4_mpp.Repository.CazDBRepository 73 FindOne - Entering findOne caz with value 2
+04 Apr 2021 14:03:23,107 INFO  lab4_mpp.Repository.CazDBRepository 96 FindOne - Exiting findOne with value Planteaza copaci , 200
+04 Apr 2021 14:03:23,118 INFO  lab4_mpp.Repository.CazDBRepository 160 Update - Update 1 values
+04 Apr 2021 14:03:23,119 INFO  lab4_mpp.Repository.CazDBRepository 163 Update - Updated Planteaza copaci , 210 
+04 Apr 2021 14:03:29,784 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:03:29,784 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:03:29,794 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:03:29,795 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:03:29,798 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:03:29,799 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:05:41,324 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:05:41,419 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:05:41,435 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:05:41,436 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:05:41,442 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:05:41,443 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:05:50,738 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value ab, cd
+04 Apr 2021 14:05:50,743 INFO  lab4_mpp.Repository.DonatorDBRepository 175 FindByNume - Exiting findByNume with value 6
+04 Apr 2021 14:05:50,758 INFO  lab4_mpp.Repository.DonatieDBRepository 76 Save - save exited with value 1
+04 Apr 2021 14:05:50,759 INFO  lab4_mpp.Repository.CazDBRepository 136 Update - Entering updateCaz
+04 Apr 2021 14:05:50,759 INFO  lab4_mpp.Repository.CazDBRepository 73 FindOne - Entering findOne caz with value 2
+04 Apr 2021 14:05:50,760 INFO  lab4_mpp.Repository.CazDBRepository 96 FindOne - Exiting findOne with value Planteaza copaci , 210
+04 Apr 2021 14:05:50,772 INFO  lab4_mpp.Repository.CazDBRepository 160 Update - Update 1 values
+04 Apr 2021 14:05:50,773 INFO  lab4_mpp.Repository.CazDBRepository 163 Update - Updated Planteaza copaci , 220 
+04 Apr 2021 14:05:50,773 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:05:50,773 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:05:58,301 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value aba, cd
+04 Apr 2021 14:05:58,302 INFO  lab4_mpp.Repository.DonatorDBRepository 180 FindByNume - Entering findOne with value {0}
+04 Apr 2021 14:05:58,315 INFO  lab4_mpp.Repository.DonatorDBRepository 134 Save - save exited with value 1
+04 Apr 2021 14:05:58,315 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value aba, cd
+04 Apr 2021 14:05:58,316 INFO  lab4_mpp.Repository.DonatorDBRepository 175 FindByNume - Exiting findByNume with value 7
+04 Apr 2021 14:05:58,316 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:05:58,316 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:07:06,576 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:07:06,667 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:07:06,682 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:07:06,683 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:07:06,688 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:07:06,689 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:07:16,962 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value abc, cd
+04 Apr 2021 14:07:16,968 INFO  lab4_mpp.Repository.DonatorDBRepository 180 FindByNume - Entering findOne with value {0}
+04 Apr 2021 14:07:48,433 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:07:48,526 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:07:48,540 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:07:48,541 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:07:48,546 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:07:48,548 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:07:54,921 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value abc, cd
+04 Apr 2021 14:07:54,925 INFO  lab4_mpp.Repository.DonatorDBRepository 180 FindByNume - Entering findOne with value {0}
+04 Apr 2021 14:07:54,938 INFO  lab4_mpp.Repository.DonatorDBRepository 134 Save - save exited with value 1
+04 Apr 2021 14:07:54,938 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value abc, cd
+04 Apr 2021 14:07:54,938 INFO  lab4_mpp.Repository.DonatorDBRepository 175 FindByNume - Exiting findByNume with value 8
+04 Apr 2021 14:07:54,939 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:07:54,939 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:07:54,957 INFO  lab4_mpp.Repository.DonatieDBRepository 76 Save - save exited with value 1
+04 Apr 2021 14:07:54,958 INFO  lab4_mpp.Repository.CazDBRepository 136 Update - Entering updateCaz
+04 Apr 2021 14:07:54,958 INFO  lab4_mpp.Repository.CazDBRepository 73 FindOne - Entering findOne caz with value 6
+04 Apr 2021 14:07:54,959 INFO  lab4_mpp.Repository.CazDBRepository 96 FindOne - Exiting findOne with value abc , 200
+04 Apr 2021 14:07:54,968 INFO  lab4_mpp.Repository.CazDBRepository 160 Update - Update 1 values
+04 Apr 2021 14:07:54,968 INFO  lab4_mpp.Repository.CazDBRepository 163 Update - Updated abc , 300 
+04 Apr 2021 14:07:54,968 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:07:54,969 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:15:47,538 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:15:47,633 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:15:47,649 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:15:47,650 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:15:47,656 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:15:47,657 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:15:49,763 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:15:49,764 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:15:52,981 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:15:52,982 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:15:53,459 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:15:53,460 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:15:53,625 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:15:53,627 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:15:55,240 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:15:55,241 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:15:56,219 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:15:56,222 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:15:57,137 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:15:57,138 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:15:57,563 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:15:57,564 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:15:57,744 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:15:57,745 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:15:58,515 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:15:58,516 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:15:59,043 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:15:59,045 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:00,793 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:00,794 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:01,533 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:01,534 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:01,731 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:01,733 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:01,895 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:01,895 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:04,172 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:04,173 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:04,467 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:04,468 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:04,672 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:04,673 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:04,840 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:04,842 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:04,890 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:04,891 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:05,050 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:05,051 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:05,231 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:05,232 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:05,558 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:05,559 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:06,063 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:06,064 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:06,101 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:06,102 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:06,125 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:06,126 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:06,173 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:06,173 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:06,204 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:06,205 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:06,236 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:06,236 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:16:06,266 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:16:06,267 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:17:51,406 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:17:51,516 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:17:51,532 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:17:51,533 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:17:51,539 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:17:51,539 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:18:00,864 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:18:00,866 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:18:05,297 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:18:05,299 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:19:57,221 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:19:57,317 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:19:57,333 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:19:57,334 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:19:57,341 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:19:57,342 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:20:00,161 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:20:00,163 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:20:01,796 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:20:01,798 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:05,611 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:22:05,708 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:22:05,724 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:22:05,725 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:22:05,731 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:05,733 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:07,753 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:07,754 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:08,856 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:08,858 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:11,406 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:11,407 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:11,566 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:11,567 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:11,708 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:11,708 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:11,812 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:11,814 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:12,529 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:12,530 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:12,895 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:12,897 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:13,859 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:13,859 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:14,041 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:14,041 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:14,928 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:14,928 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:16,590 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:16,591 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:17,274 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:17,275 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:18,354 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:18,355 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:18,624 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:18,624 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:18,720 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:18,722 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:19,429 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:19,431 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:22,676 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:22,678 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:23,115 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:23,117 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:23,815 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:23,816 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:24,922 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:24,923 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:25,158 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:25,159 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:25,314 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:25,314 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:25,811 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:25,813 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:27,933 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:27,933 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:28,498 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:28,499 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:22:28,676 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:22:28,676 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:23:29,670 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:23:29,764 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:23:29,781 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:23:29,782 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:23:29,787 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:23:29,788 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:23:32,149 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:23:32,150 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:23:33,048 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:23:33,049 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:23:34,158 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:23:34,159 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:23:37,044 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:23:37,044 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:23:37,263 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:23:37,263 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:23:41,969 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:23:41,971 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:23:42,141 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:23:42,141 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:23:42,303 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:23:42,304 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:23:44,973 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:23:44,973 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:23:45,255 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:23:45,256 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:23:45,413 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:23:45,414 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:24:09,390 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:24:09,490 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:24:09,507 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:24:09,508 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:24:09,514 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:24:09,515 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:24:11,673 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:24:11,676 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:24:12,441 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:24:12,442 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:24:13,003 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:24:13,003 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:47:53,462 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:47:53,553 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:47:53,573 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:47:53,574 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:47:53,580 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:47:53,581 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:47:55,499 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:47:55,500 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:47:56,711 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:47:56,711 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:47:58,894 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:47:58,894 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:43,104 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:49:43,199 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:49:43,216 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:49:43,217 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:49:43,223 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:43,224 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:45,722 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:45,722 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:45,729 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:45,730 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:46,589 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:46,590 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:46,597 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:46,598 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:49,055 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:49,055 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:49,061 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:49,062 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:49,530 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:49,530 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:49,536 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:49,537 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:51,312 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:51,313 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:51,319 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:51,320 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:52,863 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:52,863 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:52,869 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:52,870 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:54,699 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:54,699 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:54,706 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:54,706 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:55,379 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:55,379 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:49:55,385 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:49:55,385 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:50:24,803 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+04 Apr 2021 14:50:24,895 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+04 Apr 2021 14:50:24,914 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+04 Apr 2021 14:50:24,915 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+04 Apr 2021 14:50:24,921 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:50:24,922 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:50:26,402 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:50:26,402 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:50:26,627 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:50:26,627 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:50:27,894 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:50:27,895 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+04 Apr 2021 14:50:28,180 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+04 Apr 2021 14:50:28,180 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 13:38:13,650 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+08 Apr 2021 13:38:13,881 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+08 Apr 2021 13:38:19,611 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+08 Apr 2021 13:38:19,612 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+08 Apr 2021 13:48:29,214 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+08 Apr 2021 13:48:29,322 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+08 Apr 2021 13:48:29,337 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+08 Apr 2021 13:48:29,340 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+08 Apr 2021 13:48:29,349 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 13:48:29,350 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 13:48:38,269 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value haidau , maria
+08 Apr 2021 13:48:38,274 INFO  lab4_mpp.Repository.DonatorDBRepository 175 FindByNume - Exiting findByNume with value 14
+08 Apr 2021 13:48:38,287 INFO  lab4_mpp.Repository.DonatieDBRepository 76 Save - save exited with value 1
+08 Apr 2021 13:48:38,288 INFO  lab4_mpp.Repository.CazDBRepository 136 Update - Entering updateCaz
+08 Apr 2021 13:48:38,288 INFO  lab4_mpp.Repository.CazDBRepository 73 FindOne - Entering findOne caz with value 8
+08 Apr 2021 13:48:38,288 INFO  lab4_mpp.Repository.CazDBRepository 96 FindOne - Exiting findOne with value caz8 , 700
+08 Apr 2021 13:48:38,302 INFO  lab4_mpp.Repository.CazDBRepository 160 Update - Update 1 values
+08 Apr 2021 13:48:38,302 INFO  lab4_mpp.Repository.CazDBRepository 163 Update - Updated caz8 , 800 
+08 Apr 2021 13:48:38,303 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+08 Apr 2021 13:48:38,303 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+08 Apr 2021 13:48:43,158 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 13:48:43,162 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 13:48:43,335 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 13:48:43,336 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 13:48:43,423 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 13:48:43,424 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 13:48:43,694 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 13:48:43,697 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 13:48:43,844 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 13:48:43,845 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 13:48:44,214 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 13:48:44,216 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 13:48:44,915 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 13:48:44,916 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 13:48:44,977 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 13:48:44,977 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 13:48:45,324 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 13:48:45,326 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 13:48:45,491 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 13:48:45,493 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:20:32,852 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+08 Apr 2021 14:20:32,952 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+08 Apr 2021 14:20:32,969 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+08 Apr 2021 14:20:32,970 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+08 Apr 2021 14:20:32,976 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:20:32,977 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:20:39,493 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value Patrassssssssssssssss, Rodica
+08 Apr 2021 14:20:39,497 INFO  lab4_mpp.Repository.DonatorDBRepository 175 FindByNume - Exiting findByNume with value 13
+08 Apr 2021 14:20:39,511 INFO  lab4_mpp.Repository.DonatieDBRepository 76 Save - save exited with value 1
+08 Apr 2021 14:20:39,512 INFO  lab4_mpp.Repository.CazDBRepository 136 Update - Entering updateCaz
+08 Apr 2021 14:20:39,513 INFO  lab4_mpp.Repository.CazDBRepository 73 FindOne - Entering findOne caz with value 6
+08 Apr 2021 14:20:39,513 INFO  lab4_mpp.Repository.CazDBRepository 96 FindOne - Exiting findOne with value caz6 , 400
+08 Apr 2021 14:20:39,526 INFO  lab4_mpp.Repository.CazDBRepository 160 Update - Update 1 values
+08 Apr 2021 14:20:39,526 INFO  lab4_mpp.Repository.CazDBRepository 163 Update - Updated caz6 , 500 
+08 Apr 2021 14:20:39,526 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+08 Apr 2021 14:20:39,527 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+08 Apr 2021 14:20:41,412 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:20:41,413 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:20:41,733 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:20:41,735 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:20:42,587 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:20:42,587 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:20:44,318 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:20:44,319 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:20:45,398 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:20:45,399 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:20:45,541 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:20:45,547 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:19,852 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+08 Apr 2021 14:28:19,948 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+08 Apr 2021 14:28:19,966 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+08 Apr 2021 14:28:19,968 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+08 Apr 2021 14:28:19,974 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:19,975 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:24,070 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value haidau , maria
+08 Apr 2021 14:28:24,075 INFO  lab4_mpp.Repository.DonatorDBRepository 175 FindByNume - Exiting findByNume with value 14
+08 Apr 2021 14:28:24,087 INFO  lab4_mpp.Repository.DonatieDBRepository 76 Save - save exited with value 1
+08 Apr 2021 14:28:24,088 INFO  lab4_mpp.Repository.CazDBRepository 136 Update - Entering updateCaz
+08 Apr 2021 14:28:24,088 INFO  lab4_mpp.Repository.CazDBRepository 73 FindOne - Entering findOne caz with value 8
+08 Apr 2021 14:28:24,089 INFO  lab4_mpp.Repository.CazDBRepository 96 FindOne - Exiting findOne with value caz8 , 800
+08 Apr 2021 14:28:24,098 INFO  lab4_mpp.Repository.CazDBRepository 160 Update - Update 1 values
+08 Apr 2021 14:28:24,098 INFO  lab4_mpp.Repository.CazDBRepository 163 Update - Updated caz8 , 900 
+08 Apr 2021 14:28:24,098 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+08 Apr 2021 14:28:24,099 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+08 Apr 2021 14:28:26,109 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:26,111 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:26,177 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:26,177 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:26,249 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:26,249 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:26,382 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:26,383 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:26,491 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:26,492 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:26,633 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:26,633 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:26,784 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:26,784 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:26,949 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:26,949 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:27,319 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:27,320 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:27,582 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:27,582 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:27,733 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:27,734 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:27,902 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:27,903 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:28,094 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:28,095 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:28,255 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:28,255 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:28,394 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:28,395 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 14:28:28,567 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 14:28:28,569 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 16:36:45,799 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+08 Apr 2021 16:36:45,895 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+08 Apr 2021 16:36:50,381 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+08 Apr 2021 16:36:50,381 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+08 Apr 2021 16:36:50,401 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+08 Apr 2021 16:36:50,402 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+08 Apr 2021 16:36:50,409 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 16:36:50,410 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 16:36:55,584 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value Patrass, Sergiu
+08 Apr 2021 16:36:55,588 INFO  lab4_mpp.Repository.DonatorDBRepository 175 FindByNume - Exiting findByNume with value 10
+08 Apr 2021 16:36:55,601 INFO  lab4_mpp.Repository.DonatieDBRepository 76 Save - save exited with value 1
+08 Apr 2021 16:36:55,602 INFO  lab4_mpp.Repository.CazDBRepository 136 Update - Entering updateCaz
+08 Apr 2021 16:36:55,603 INFO  lab4_mpp.Repository.CazDBRepository 73 FindOne - Entering findOne caz with value 8
+08 Apr 2021 16:36:55,603 INFO  lab4_mpp.Repository.CazDBRepository 96 FindOne - Exiting findOne with value caz8 , 900
+08 Apr 2021 16:36:55,614 INFO  lab4_mpp.Repository.CazDBRepository 160 Update - Update 1 values
+08 Apr 2021 16:36:55,615 INFO  lab4_mpp.Repository.CazDBRepository 163 Update - Updated caz8 , 1000 
+08 Apr 2021 16:36:55,615 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+08 Apr 2021 16:36:55,615 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+08 Apr 2021 21:25:24,194 INFO  lab4_mpp.Repository.VoluntarDBRepository 36 FindAll - Entering findAll Voluntari
+08 Apr 2021 21:25:24,434 INFO  lab4_mpp.Repository.VoluntarDBRepository 61 FindAll - Exiting findAll voluntari with the result from it
+08 Apr 2021 21:25:24,475 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+08 Apr 2021 21:25:24,478 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+08 Apr 2021 21:25:24,488 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:24,489 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 21:25:35,481 INFO  lab4_mpp.Repository.DonatorDBRepository 144 FindByNume - Entering findByName with value Patrassssssssssssssss, Rodica
+08 Apr 2021 21:25:35,487 INFO  lab4_mpp.Repository.DonatorDBRepository 175 FindByNume - Exiting findByNume with value 13
+08 Apr 2021 21:25:35,499 INFO  lab4_mpp.Repository.DonatieDBRepository 76 Save - save exited with value 1
+08 Apr 2021 21:25:35,500 INFO  lab4_mpp.Repository.CazDBRepository 136 Update - Entering updateCaz
+08 Apr 2021 21:25:35,501 INFO  lab4_mpp.Repository.CazDBRepository 73 FindOne - Entering findOne caz with value 9
+08 Apr 2021 21:25:35,501 INFO  lab4_mpp.Repository.CazDBRepository 96 FindOne - Exiting findOne with value caz9 , 800
+08 Apr 2021 21:25:35,513 INFO  lab4_mpp.Repository.CazDBRepository 160 Update - Update 1 values
+08 Apr 2021 21:25:35,514 INFO  lab4_mpp.Repository.CazDBRepository 163 Update - Updated caz9 , 900 
+08 Apr 2021 21:25:35,514 INFO  lab4_mpp.Repository.CazDBRepository 37 FindAll - Entering findAll Cazuri
+08 Apr 2021 21:25:35,514 INFO  lab4_mpp.Repository.CazDBRepository 62 FindAll - Exiting findAll cazuri with the result from it
+08 Apr 2021 21:25:39,581 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:39,583 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 21:25:39,659 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:39,659 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 21:25:40,114 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:40,114 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 21:25:40,251 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:40,252 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 21:25:40,828 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:40,829 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 21:25:40,889 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:40,889 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 21:25:40,972 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:40,972 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 21:25:41,119 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:41,120 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 21:25:41,349 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:41,350 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 21:25:41,502 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:41,503 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 21:25:41,644 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:41,645 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it
+08 Apr 2021 21:25:41,772 INFO  lab4_mpp.Repository.DonatorDBRepository 38 FindAll - Entering findAll
+08 Apr 2021 21:25:41,773 INFO  lab4_mpp.Repository.DonatorDBRepository 61 FindAll - Exiting findAll with the result from it

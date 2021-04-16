@@ -1,0 +1,36 @@
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\lab4 mpp.exe.config
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\lab4 mpp.exe
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\lab4 mpp.pdb
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\EntityFramework.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\log4net.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\System.Data.SQLite.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\System.Security.Permissions.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\TeledonDomain.pdb
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\TeledonPersistence.pdb
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\EntityFramework.xml
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\log4net.xml
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\System.Data.SQLite.xml
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\System.Security.Permissions.xml
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\obj\Debug\lab4 mpp.csprojAssemblyReference.cache
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\obj\Debug\lab4_mpp.Form1.resources
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\obj\Debug\lab4_mpp.Form2.resources
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\obj\Debug\lab4_mpp.Properties.Resources.resources
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\obj\Debug\lab4 mpp.csproj.GenerateResource.cache
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\obj\Debug\lab4 mpp.csproj.CoreCompileInputs.cache
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\obj\Debug\lab4 mpp.csproj.CopyComplete
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\obj\Debug\lab4 mpp.exe
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\obj\Debug\lab4 mpp.pdb
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\TeledonDomain.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\TeledonPersistence.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\TeledonDomain.dll.config
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\lab4 mpp\bin\Debug\TeledonPersistence.dll.config

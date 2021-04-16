@@ -1,0 +1,7 @@
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonDomain\bin\Debug\TeledonDomain.pdb
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonDomain\obj\Debug\TeledonDomain.csproj.CoreCompileInputs.cache
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonDomain\obj\Debug\TeledonDomain.pdb
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonDomain\bin\Debug\TeledonDomain.dll.config
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonDomain\bin\Debug\TeledonDomain.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonDomain\obj\Debug\TeledonDomain.dll
+C:\Users\Patras Sergiu\source\repos\lab4 mpp\TeledonDomain\obj\Debug\TeledonDomain.csprojAssemblyReference.cache
