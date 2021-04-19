@@ -106,11 +106,12 @@ namespace ProjectServer
             return cazuri.ToArray();
         }
 
-        public Donator[] GetDonatori()
+        public Donator[] GetAllDonatori()
         {
             IEnumerable<Donator> donatori = RepoDonator.FindAll();
-            Console.WriteLine("GetDonatori server");
+            Console.WriteLine("GetAlldonatori server");
             return donatori.ToArray();
         }
+
     }
 }

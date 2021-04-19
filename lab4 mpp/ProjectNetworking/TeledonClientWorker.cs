@@ -130,7 +130,6 @@ namespace teledon.network.server
 			//	{
 			//		return new ErrorResponse(e.Message);
 			//	}
-			//}
 
 			if (request is GetCazuriRequest)
 			{
@@ -156,36 +155,33 @@ namespace teledon.network.server
 				}
 			}
 
-			if (request is GetDonatoriRequest)
-			{
+			if(request is GetAllDonatoriRequest)
+            {
 				Console.WriteLine("GetDonatoriRequest Request ...");
-				GetDonatoriRequest getReq = (GetDonatoriRequest)request;
+				Console.WriteLine("GetDonatori Worker1");
+				GetAllDonatoriRequest getReq = (GetAllDonatoriRequest)request;
+				Console.WriteLine("GetDonatori Worker2");
 				try
-				{
+                {
 					Donator[] donatori;
-					lock (server)
-					{
-						Console.WriteLine("Getdonatori Worker3");
-						donatori = server.GetDonatori();
-						Console.WriteLine("Getdonatori Worker4");
-                        foreach (Donator donator in donatori)
-                        {
-							Console.WriteLine(donator);
-                        }
-					}
-					DonatorDTO[] frDTO = DTOUtils.getDTO(donatori);
-					Console.WriteLine("Getdonatori Worker5");
-					return new GetDonatoriResponse(frDTO);
-				}
-				catch (TeledonException e)
-				{
+					lock(server)
+                    {
+						Console.WriteLine("GetAllDonatori Woker3");
+						donatori = server.GetAllDonatori();
+						Console.WriteLine("GetAllDonatori worker4");
+                    }
+					DonatorDTO[] cdto = DTOUtils.getDTO(donatori);
+					return new GetAllDonatoriResponse(cdto);
+                }
+				catch(TeledonException e)
+                {
 					return new ErrorResponse(e.Message);
-				}
+                }
 			}
+
 
 			return response;
 		}
-		//Console.WriteLine("Proxy donator1")
 		public void newDonationAdded(Donatie donatie)
         {
             throw new NotImplementedException();

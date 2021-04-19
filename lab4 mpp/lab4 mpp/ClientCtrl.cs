@@ -38,9 +38,10 @@ namespace teledon.client
 
         public Donator[] GetDonatori()
         {
-            Console.WriteLine("GetDonatori CTRL");
-            return server.GetDonatori();
+            Console.WriteLine("GetDonatori ctrl");
+            return server.GetAllDonatori();
         }
+
 
         public void logout()
         {

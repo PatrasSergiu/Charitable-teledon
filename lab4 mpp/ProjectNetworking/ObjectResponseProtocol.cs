@@ -34,6 +34,24 @@ namespace teledon.networking.protocol
 		}
 	}
 
+
+	[Serializable]
+	public class GetAllDonatoriResponse : Response
+    {
+		private DonatorDTO[] donatori;
+		public GetAllDonatoriResponse(DonatorDTO[] d)
+        {
+			this.donatori = d;
+        }
+		public virtual DonatorDTO[] Donatori
+        {
+            get
+            {
+				return donatori;
+            }
+        }
+    }
+
 	[Serializable]
 	public class GetCazuriResponse : Response
 	{
@@ -49,25 +67,6 @@ namespace teledon.networking.protocol
 			get
 			{
 				return cazuri;
-			}
-		}
-	}
-
-	[Serializable]
-	public class GetDonatoriResponse : Response
-	{
-		private DonatorDTO[] donatori;
-
-		public GetDonatoriResponse(DonatorDTO[] donatori)
-		{
-			this.donatori = donatori;
-		}
-
-		public virtual DonatorDTO[] Donatori
-		{
-			get
-			{
-				return donatori;
 			}
 		}
 	}

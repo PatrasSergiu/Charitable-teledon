@@ -41,14 +41,13 @@ namespace teledon.networking.protocol
 	}
 
 	[Serializable]
-	public class GetDonatoriRequest : Request
-	{
-		public GetDonatoriRequest()
-		{
+	public class GetAllDonatoriRequest: Request
+    {
+		public GetAllDonatoriRequest()
+        {
 
-		}
-
-	}
+        }
+    }
 
 
 	[Serializable]

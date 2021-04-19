@@ -13,6 +13,7 @@ namespace teledon.services
         void logout(Voluntar voluntar, ITeledonObserver client);
 
         CazCaritabil[] GetCazuri();
-        Donator[] GetDonatori();
+
+        Donator[] GetAllDonatori();
     }
 }

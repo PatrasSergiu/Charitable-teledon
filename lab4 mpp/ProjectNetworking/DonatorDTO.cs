@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace teledon.networking.dto
 {
-    public class DonatorDTO
+	[Serializable]
+	public class DonatorDTO
     {
         public string nume;
         public string prenume;

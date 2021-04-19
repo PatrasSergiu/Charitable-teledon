@@ -215,27 +215,25 @@ namespace teledon.network.server
 			return cazuri;
 		}
 
-		public Donator[] GetDonatori()
+        public Donator[] GetAllDonatori()
         {
-			Console.WriteLine("Proxy donator1");
-			sendRequest(new GetDonatoriRequest());
-			Console.WriteLine("Proxy donator2");
+			Console.WriteLine("Proxy1");
+			sendRequest(new GetAllDonatoriRequest());
+			Console.WriteLine("Proxy2");
 			Response response = readResponse();
-
-			if(response is ErrorResponse)
-            {
+			Console.WriteLine("Proxy3");
+			if (response is ErrorResponse)
+			{
 				ErrorResponse err = (ErrorResponse)response;
 				throw new TeledonException(err.Message);
-             }
-
-			GetDonatoriResponse resp = (GetDonatoriResponse)response;
-
-			DonatorDTO[] cdto = resp.Donatori;
-			Donator[] donatori = DTOUtils.getFromDTO(cdto);
-
-			return donatori;
+			}
+			GetAllDonatoriResponse resp = (GetAllDonatoriResponse)response;
+			Console.WriteLine("Proxy4");
+			DonatorDTO[] cazuridto = resp.Donatori;
+			Donator[] cazuri = DTOUtils.getFromDTO(cazuridto);
+			Console.WriteLine("Proxy5");
+			return cazuri;
 		}
-
     }
 
 
