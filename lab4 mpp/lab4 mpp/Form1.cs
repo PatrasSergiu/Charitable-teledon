@@ -16,17 +16,24 @@ namespace teledon.client
         //private Service srv;
         private ClientCtrl ctrl;
         private Voluntar loggedVoluntar;
+        private Donator[] donatori;
 
 
         BindingSource bsCazuri = new BindingSource();
         BindingSource bsDonatori = new BindingSource();
+
+        public void userUpdate(object sender, ClientEventArgs e)
+        {
+            BeginInvoke(new UpdateListBoxCallback(this.populate), new object[] { });
+        }
+        public delegate void UpdateListBoxCallback();
 
         public Form1(ClientCtrl client, Voluntar voluntar)
         {
             InitializeComponent();
             this.loggedVoluntar = voluntar;
             this.ctrl = client;
-
+            this.ctrl.updateEvent += userUpdate;
             //IVoluntarRepo voluntarRepo = new VoluntarDBRepository();
             //IDonatorRepo donatorRepo = new DonatorDBRepository();
             //ICazRepo cazRepo = new CazDBRepository();
@@ -41,14 +48,13 @@ namespace teledon.client
 
         private void populate()
         {
-            
             bsCazuri.DataSource = ctrl.GetCazuri();
             dataGridView1.DataSource = bsCazuri;
             dataGridView1.Columns["ID"].Visible = false;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
-
-            bsDonatori.DataSource = ctrl.GetDonatori();
+            donatori = ctrl.GetDonatori();
+            bsDonatori.DataSource = donatori;
             dataGridView2.DataSource = bsDonatori;
             dataGridView2.Columns["ID"].Visible = false;
             dataGridView2.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
@@ -90,6 +96,7 @@ namespace teledon.client
             string nume="", prenume = "", adresa = "", telefon = "";
             int suma = 0;
             CazCaritabil currentObject = (CazCaritabil)dataGridView1.CurrentRow.DataBoundItem;
+        
             if (currentObject == null)
             {
                 MessageBox.Show("Nu ati ales nici un caz caritabil.");
@@ -106,6 +113,14 @@ namespace teledon.client
                 prenume = prenumeTextBox.Text;
                 adresa = AdresaTextBox.Text;
                 telefon = telefonTextBox.Text;
+                if (suma <= 0)
+                    throw new Exception("Suma nu are voie sa fie negativa.");
+
+                Donator donator = new Donator(adresa, telefon, nume, prenume);
+                ctrl.makeDonation(currentObject, donator, suma);
+                ctrl.updateEvent += userUpdate;
+                
+                
             }
             catch(Exception ex)
             {
@@ -138,14 +153,14 @@ namespace teledon.client
         private void searchTextBox_KeyPressed(object sender, EventArgs e)
         {
             String search = searchTextBox.Text;
-            //List<Donator> rez = new List<Donator>();
-            //srv.findAllDonatori().ToList().ForEach(x =>
-            //{
-            //    if (x.getNumeComplet().ToLower().Contains(search.ToLower()))
-            //        rez.Add(x);
-            //});
-            //bsDonatori.DataSource = rez;
-            //dataGridView2.DataSource = bsDonatori;
+            List<Donator> rez = new List<Donator>();
+            donatori.ToList().ForEach(x =>
+            {
+                if (x.getNumeComplet().ToLower().Contains(search.ToLower()))
+                   rez.Add(x);
+            });
+            bsDonatori.DataSource = rez;
+            dataGridView2.DataSource = bsDonatori;
         }
     }
 }

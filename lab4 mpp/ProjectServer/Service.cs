@@ -50,11 +50,6 @@ namespace ProjectServer
             RepoDonator.Save(d);
         }
 
-        public void addDonatie(Donator donator, CazCaritabil caz, int suma)
-        {
-            Donatie donatie = new Donatie(caz, donator, suma);
-            RepoDonatie.Save(donatie);
-        }
 
         public void updateCaz(CazCaritabil caz)
         {
@@ -113,5 +108,42 @@ namespace ProjectServer
             return donatori.ToArray();
         }
 
+        public void notifyClients(Donatie donatie)
+        {
+            foreach (String username in loggedClients.Keys)
+            {
+                Console.WriteLine("Notifying " + username);
+                ITeledonObserver client = loggedClients[username];
+                Task.Run(() => client.newDonationAdded(donatie));
+                Console.WriteLine("Notifed " + username);
+            }
+        }
+
+        public void addDonation(CazCaritabil caz, Donator donator, int suma)
+        {
+            Console.WriteLine("Server makeDonation1");
+            string nume, prenume, adresa, telefon;
+            nume = donator.Nume;
+            prenume = donator.Prenume;
+            adresa = donator.Adresa;
+            telefon = donator.Telefon;
+            donator = RepoDonator.FindByNume(nume, prenume);
+            //make sure we have the IDs for donator and caz
+            if (donator == null)
+            {
+                RepoDonator.Save(new Donator(adresa, telefon, nume, prenume));
+                donator = RepoDonator.FindByNume(nume, prenume);
+            }
+            Console.WriteLine("Server makeDonation2");
+            caz = RepoCaz.findByName(caz.Nume);
+            Donatie donatie = new Donatie(caz, donator, suma);
+            RepoDonatie.Save(donatie);
+            Console.WriteLine("Server makeDonation3");
+            caz.SumaAdunata = caz.SumaAdunata + suma;
+            updateCaz(caz);
+            Console.WriteLine("Server makeDonation4");
+            notifyClients(donatie);
+
+        }
     }
 }

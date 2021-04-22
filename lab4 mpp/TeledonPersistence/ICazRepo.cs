@@ -8,7 +8,9 @@ namespace teledon.repository
     public interface ICazRepo : IRepository<long, CazCaritabil>
     {
 
-        IEnumerable<Donator> FindAllDonatori(CazCaritabil caz);       
+        IEnumerable<Donator> FindAllDonatori(CazCaritabil caz);
+
+        CazCaritabil findByName(string nume);
 
     }
 }

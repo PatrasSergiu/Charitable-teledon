@@ -12,6 +12,8 @@ namespace teledon.services
         void login(Voluntar voluntar, ITeledonObserver client);
         void logout(Voluntar voluntar, ITeledonObserver client);
 
+        void addDonation(CazCaritabil caz, Donator donator, int suma);
+
         CazCaritabil[] GetCazuri();
 
         Donator[] GetAllDonatori();

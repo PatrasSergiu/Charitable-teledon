@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CazDTO.cs" />
+    <Compile Include="DonatieDTO.cs" />
     <Compile Include="DonatorDTO.cs" />
     <Compile Include="DTOUtils.cs" />
     <Compile Include="ObjectRequestProtocol.cs" />

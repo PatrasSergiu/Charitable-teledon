@@ -68,6 +68,40 @@ namespace teledon.repository
             throw new NotImplementedException();
         }
 
+        public CazCaritabil findByName(string nume)
+        {
+            log.InfoFormat("Entering findByNume caz with value {0}", nume);
+            IDbConnection con = DBUtils.getConnection();
+
+            Console.WriteLine(con);
+            using (var comm = con.CreateCommand())
+            {
+                comm.CommandText = "select * from Cazuri where descriere=@id";
+
+                IDbDataParameter paramId = comm.CreateParameter();
+                paramId.ParameterName = "@id";
+                paramId.Value = nume;
+                comm.Parameters.Add(paramId);
+
+
+                using (var dataR = comm.ExecuteReader())
+                {
+                    if (dataR.Read())
+                    {
+                        long idCaz = dataR.GetInt32(0);
+                        String Descriere = dataR.GetString(1);
+                        int sumaAdunata = dataR.GetInt32(2);
+                        CazCaritabil caz = new CazCaritabil(Descriere, sumaAdunata);
+                        caz.ID = idCaz;
+                        log.InfoFormat("Exiting findOne with value {0}", caz);
+                        return caz;
+                    }
+                }
+            }
+            log.InfoFormat("Exiting findOne with value {0}", null);
+            return null;
+        }
+
         public CazCaritabil FindOne(long id)
         {
             log.InfoFormat("Entering findOne caz with value {0}", id);
@@ -130,6 +164,8 @@ namespace teledon.repository
 
             return null;
         }
+
+
 
         public CazCaritabil Update(CazCaritabil entity)
         {

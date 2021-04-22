@@ -38,11 +38,6 @@ namespace teledon.network.server
 			responses = new Queue<Response>();
 		}
 
-		//public CazCaritabil[] GetCazuri()
-		//{
-		//	server.
-		//}
-
 		public void login(Voluntar voluntar, ITeledonObserver client)
         {
 			Console.WriteLine("Proxy login...");
@@ -145,21 +140,26 @@ namespace teledon.network.server
 
 		private void handleUpdate(UpdateResponse update)
 		{
-			//if (update is NewInscriereResponse)
-			//{
-
-			//	NewInscriereResponse req = (NewInscriereResponse)update;
-			//	Pilot pilot = new Pilot(req.pilot.nume, req.pilot.NumeEchipa);
-
-			//	try
-			//	{
-			//		client.updateInscrieri(pilot, req.pilot.username);
-			//	}
-			//	catch (CurseException e)
-			//	{
-			//		Console.WriteLine(e.StackTrace);
-			//	}
-			//}
+			Console.WriteLine("..");
+			if (update is updateDonationResponse)
+			{
+				Console.WriteLine("handleUpdate1");
+				updateDonationResponse req = (updateDonationResponse)update;
+				Console.WriteLine("handleUpdat2");
+				CazCaritabil c = DTOUtils.getFromDTO(req.Donatie.Caz);
+				Donator d = DTOUtils.getFromDTO(req.Donatie.Donator);
+				Donatie donatie = new Donatie(c, d, req.Donatie.Suma);
+				try
+				{
+					Console.WriteLine("handleUpdate3");
+					client.newDonationAdded(donatie);
+					Console.WriteLine("handleUpdate4");
+				}
+				catch (TeledonException e)
+				{
+					Console.WriteLine(e.StackTrace);
+				}
+			}
 		}
 
 		public virtual void run()
@@ -234,6 +234,21 @@ namespace teledon.network.server
 			Console.WriteLine("Proxy5");
 			return cazuri;
 		}
+
+        public void addDonation(CazCaritabil caz, Donator donator, int suma)
+        {
+			DonatieDTO dto = new DonatieDTO(caz, donator, suma);
+			Console.WriteLine("Proxy donatie1");
+			sendRequest(new newDonationRequest(dto));
+			Console.WriteLine("Proxy donatie2");
+			Response response = readResponse();
+			Console.WriteLine("Proxy donatie3");
+			if (response is ErrorResponse)
+            {
+				ErrorResponse err = (ErrorResponse)response;
+				throw new TeledonException(err.Message);
+            }
+        }
     }
 
 

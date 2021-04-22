@@ -35,6 +35,15 @@ namespace teledon.networking.dto
             return new Donator(dto.Adresa, dto.Telefon, dto.Nume, dto.Prenume);
         }
 
+        public static Donatie getFromDTO(DonatieDTO dto)
+        {
+            return new Donatie(getFromDTO(dto.Caz), getFromDTO(dto.Donator), dto.Suma);
+        }
+        public static DonatieDTO getDTO(Donatie d)
+        {
+            return new DonatieDTO(d.Caz, d.Don, d.Suma);
+        }
+
         public static DonatorDTO getDTO(Donator donator)
         {
             return new DonatorDTO(donator.Adresa, donator.Telefon, donator.Nume, donator.Prenume);

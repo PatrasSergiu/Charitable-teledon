@@ -43,6 +43,13 @@ namespace teledon.client
         }
 
 
+        public void makeDonation(CazCaritabil caz, Donator donator, int suma)
+        {
+            Console.WriteLine("makeDonation CTRL");
+            ClientEventArgs userEventArgs = new ClientEventArgs(TeledonUserEvent.updateDonatii, new Donatie(caz, donator, suma));
+            server.addDonation(caz, donator, suma);
+        }
+
         public void logout()
         {
             //Console.WriteLine("Ctrl logout");
@@ -50,11 +57,17 @@ namespace teledon.client
             //currentUser = null;
         }
 
-
-
-        public void newDonationAdded(Donatie donatie)
+        protected virtual void OnUserEvent(ClientEventArgs e)
         {
-            throw new NotImplementedException();
+            if (updateEvent == null) return;
+            updateEvent(this, e);
+            Console.WriteLine("Update event called");
+
+        }
+            public void newDonationAdded(Donatie donatie)
+        {
+            ClientEventArgs userEventArgs = new ClientEventArgs(userEvent: TeledonUserEvent.updateDonatii, donatie);
+            OnUserEvent(userEventArgs);
         }
     }
 }

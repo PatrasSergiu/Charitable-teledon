@@ -178,13 +178,45 @@ namespace teledon.network.server
 					return new ErrorResponse(e.Message);
                 }
 			}
+			if (request is newDonationRequest)
+			{
+				Console.WriteLine("Worker1");
+				newDonationRequest senReq = (newDonationRequest)request;
+				DonatieDTO mdto = senReq.Donatie;
+				Donatie donatie = DTOUtils.getFromDTO(mdto);
+				Console.WriteLine("Worker 2");
+				Console.WriteLine(donatie);
+				try
+				{
+					lock (server)
+					{
+						server.addDonation(donatie.Caz, donatie.Don, donatie.Suma);
+						Console.WriteLine("worker3");
+					}
+					return new newDonationResponse();
+				}
+				catch (TeledonException e)
+				{
+					return new ErrorResponse(e.Message);
+				}
+			}
 
 
 			return response;
 		}
-		public void newDonationAdded(Donatie donatie)
+		public virtual void newDonationAdded(Donatie donatie)
         {
-            throw new NotImplementedException();
+			DonatieDTO dto = DTOUtils.getDTO(donatie);
+			try
+            {
+				Console.WriteLine("Worker update1");
+				sendResponse(new updateDonationResponse(dto));
+				Console.WriteLine("Worker update2");
+			}
+			catch(Exception ex)
+            {
+				throw new TeledonException(ex.Message);
+            }
         }
     }
 }

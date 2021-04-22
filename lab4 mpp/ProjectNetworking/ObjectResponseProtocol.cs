@@ -75,4 +75,30 @@ namespace teledon.networking.protocol
 	{
 	}
 
+
+	[Serializable] 
+	public class newDonationResponse: Response
+    {
+
+    }
+
+	[Serializable]
+	public class updateDonationResponse : UpdateResponse
+	{
+		private DonatieDTO dto;
+
+		public updateDonationResponse(DonatieDTO dto)
+		{
+			this.dto = dto;
+		}
+
+		public virtual DonatieDTO Donatie
+		{
+			get
+			{
+				return dto;
+			}
+		}
+	}
+
 }

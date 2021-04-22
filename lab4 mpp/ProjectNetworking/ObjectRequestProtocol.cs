@@ -31,6 +31,25 @@ namespace teledon.networking.protocol
 	}
 
 	[Serializable]
+	public class newDonationRequest : Request
+	{
+		public DonatieDTO donatie;
+
+		public newDonationRequest(DonatieDTO donatie)
+		{
+			this.donatie = donatie;
+		}
+
+		public virtual DonatieDTO Donatie
+		{
+			get
+			{
+				return donatie;
+			}
+		}
+	}
+
+	[Serializable]
 	public class GetCazuriRequest : Request
 	{
 		public GetCazuriRequest()
