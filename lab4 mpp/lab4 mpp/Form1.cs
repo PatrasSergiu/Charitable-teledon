@@ -118,7 +118,6 @@ namespace teledon.client
 
                 Donator donator = new Donator(adresa, telefon, nume, prenume);
                 ctrl.makeDonation(currentObject, donator, suma);
-                ctrl.updateEvent += userUpdate;
                 
                 
             }
