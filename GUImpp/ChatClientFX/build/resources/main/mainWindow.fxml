@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="472.0" prefWidth="800.0" styleClass="login" stylesheets="@login.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teledon.client.gui.MainWindow">
+   <children>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="482.0" prefWidth="824.0">
+                     <children>
+                        <TableView fx:id="cazuriTableView" layoutX="14.0" layoutY="22.0" prefHeight="358.0" prefWidth="223.0">
+                          <columns>
+                            <TableColumn fx:id="columnCaz" prefWidth="105.59999084472656" text="Caz" />
+                            <TableColumn fx:id="columnSumaAdunata" prefWidth="112.00000610351563" text="Suma" />
+                          </columns>
+                        </TableView>
+                        <Label layoutX="264.0" layoutY="10.0" prefHeight="56.0" prefWidth="272.0" text="Donatie noua" textFill="#fc5185">
+                           <font>
+                              <Font name="Century" size="36.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="285.0" layoutY="400.0" mnemonicParsing="false" onAction="#addDonatie" prefHeight="63.0" prefWidth="180.0" text="Adaugare" />
+                        <Button layoutX="126.0" layoutY="417.0" mnemonicParsing="false" onAction="#deleteCaz" prefHeight="30.0" prefWidth="112.0" text="Sterge caz">
+                           <font>
+                              <Font name="Century" size="12.0" />
+                           </font>
+                        </Button>
+                        <TextField fx:id="numeTextBox" layoutX="285.0" layoutY="123.0" prefHeight="25.0" prefWidth="180.0" />
+                        <TextField fx:id="prenumeTextBox" layoutX="285.0" layoutY="175.0" prefWidth="180.0" />
+                        <Label layoutX="294.0" layoutY="96.0" text="Nume">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="296.0" layoutY="155.0" text="Prenume">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="290.0" layoutY="208.0" text="Telefon">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="adresaTextBox" layoutX="285.0" layoutY="281.0" prefWidth="180.0" />
+                        <TextField fx:id="telefonTextBox" layoutX="285.0" layoutY="228.0" prefWidth="180.0" />
+                        <Label layoutX="293.0" layoutY="262.0" text="Adresa">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="14.0" layoutY="418.0" mnemonicParsing="false" onAction="#logOiutMethod" prefHeight="27.0" prefWidth="98.0" text="Log out" />
+                        <TableView fx:id="donatorTableView" layoutX="510.0" layoutY="22.0" onMouseClicked="#getCurrent" prefHeight="358.0" prefWidth="275.0">
+                          <columns>
+                              <TableColumn fx:id="columnNume" prefWidth="90.0" text="Nume" />
+                            <TableColumn fx:id="columnAdresa" prefWidth="90.0" text="Adresa" />
+                            <TableColumn fx:id="columnTelefon" prefWidth="90.0" text="Telefon" />
+                          </columns>
+                        </TableView>
+                        <TextField fx:id="sumaTextBox" layoutX="285.0" layoutY="337.0" prefWidth="180.0" />
+                        <Label layoutX="297.0" layoutY="318.0" text="Suma">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="509.0" layoutY="422.0" text="Cautare">
+                           <font>
+                              <Font name="Century" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="searchTextField" layoutX="581.0" layoutY="419.0" onKeyTyped="#fastSearch" prefHeight="26.0" prefWidth="203.0" />
+                     </children></AnchorPane>
+      </children>
+</AnchorPane>

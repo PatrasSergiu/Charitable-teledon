@@ -1,0 +1,14 @@
+teledon/model/ValidationException.java
+ teledon.model.ValidationException
+teledon/model/Donator.java
+ teledon.model.Donator
+teledon/model/Entity.java
+ teledon.model.Entity
+teledon/model/Voluntar.java
+ teledon.model.Voluntar
+teledon/model/IValidator.java
+ teledon.model.IValidator
+teledon/model/CazCaritabil.java
+ teledon.model.CazCaritabil
+teledon/model/Donatie.java
+ teledon.model.Donatie

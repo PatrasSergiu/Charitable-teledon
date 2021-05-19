@@ -1,0 +1,12 @@
+rootProject.name = 'l3'
+include 'TeledonServices'
+include 'TeledonModel'
+include 'TeledonPersistance'
+include 'TeledonPersistence'
+include 'untitled'
+include 'TeledonServer'
+include 'TeledonNetworking'
+include 'ChatClientFX'
+include 'proto'
+include 'RestServices'
+

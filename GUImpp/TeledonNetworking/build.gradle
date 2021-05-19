@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+sourceCompatibility = 1.8
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
+    compile group: 'com.google.protobuf', name: 'protobuf-java', version: '3.15.8'
+
+
+    compile project (':TeledonModel')
+    compile project (':TeledonServices')
+}
+
+test {
+    useJUnitPlatform()
+}

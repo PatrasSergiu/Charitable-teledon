@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatClientFX.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatClientFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RestServices.iml" filepath="$PROJECT_DIR$/.idea/modules/RestServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TeledonNetworking.iml" filepath="$PROJECT_DIR$/.idea/modules/TeledonNetworking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proto/proto.iml" filepath="$PROJECT_DIR$/proto/proto.iml" />
+    </modules>
+  </component>
+</project>

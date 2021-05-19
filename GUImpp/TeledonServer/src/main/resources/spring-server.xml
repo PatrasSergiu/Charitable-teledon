@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+
+    <util:properties location="classpath:teledonServer.properties" id="jdbcProps"/>
+<!--    <bean id="RepoDbVoluntar" class="teledon.persistence.repository.VoluntarDBRepo">-->
+<!--        <constructor-arg ref="jdbcProps"/>-->
+<!--    </bean>-->
+    <bean id="RepoDbVoluntar" class="teledon.persistence.repository.hibernate.VoluntarHibernate">
+    </bean>
+    <bean id="RepoDbDonator" class="teledon.persistence.repository.DonatorDBRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+    <bean id="RepoDbDonatie" class="teledon.persistence.repository.DonatieDBRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+    <bean id="RepoDbCaz" class="teledon.persistence.repository.CazDBRepository">
+        <constructor-arg ref="jdbcProps" index="0"/>
+
+    </bean>
+
+    <bean id="teledonService" class="teledon.server.TeledonService">
+        <constructor-arg ref="RepoDbVoluntar" index="0"/>
+        <constructor-arg ref="RepoDbCaz" index="1"/>
+        <constructor-arg ref="RepoDbDonator" index="2"/>
+        <constructor-arg ref="RepoDbDonatie" index="3"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+
+        <property name="serviceName" value="TeledonService"/>
+        <property name="service" ref="teledonService"/>
+        <property name="serviceInterface" value="teledon.services.ITeledonServices"/>
+        <property name="registryPort" value="1099"/>
+    </bean>
+
+</beans>

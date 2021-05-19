@@ -1,0 +1,69 @@
+teledon/network/dto/DTOutils.java
+ teledon.network.dto.DTOutils
+teledon/network/rpcprotocol/TeledonClientRpcReflectionWorker.java
+ teledon.network.rpcprotocol.TeledonClientRpcReflectionWorker
+teledon/network/utils/TeledonRpcConcurrentServer.java
+ teledon.network.utils.TeledonRpcConcurrentServer
+teledon/network/dto/DonatieDTO.java
+ teledon.network.dto.DonatieDTO
+teledon/network/rpcprotocol/Response.java
+ teledon.network.rpcprotocol.Response
+ teledon.network.rpcprotocol.Response$Builder
+teledon/network/rpcprotocol/ResponseType.java
+ teledon.network.rpcprotocol.ResponseType
+teledon/network/rpcprotocol/RequestType.java
+ teledon.network.rpcprotocol.RequestType
+teledon/network/rpcprotocol/TeledonServicesRpcProxy.java
+ teledon.network.rpcprotocol.TeledonServicesRpcProxy
+ teledon.network.rpcprotocol.TeledonServicesRpcProxy$ReaderThread
+teledon/network/protobuffprotocol/TeledonProtobufs.java
+ teledon.network.protobuffprotocol.TeledonProtobufs
+ teledon.network.protobuffprotocol.TeledonProtobufs$1
+ teledon.network.protobuffprotocol.TeledonProtobufs$2
+ teledon.network.protobuffprotocol.TeledonProtobufs$CazCaritabil
+ teledon.network.protobuffprotocol.TeledonProtobufs$CazCaritabil$1
+ teledon.network.protobuffprotocol.TeledonProtobufs$CazCaritabil$Builder
+ teledon.network.protobuffprotocol.TeledonProtobufs$CazCaritabilOrBuilder
+ teledon.network.protobuffprotocol.TeledonProtobufs$Donatie
+ teledon.network.protobuffprotocol.TeledonProtobufs$Donatie$1
+ teledon.network.protobuffprotocol.TeledonProtobufs$Donatie$Builder
+ teledon.network.protobuffprotocol.TeledonProtobufs$DonatieOrBuilder
+ teledon.network.protobuffprotocol.TeledonProtobufs$Donator
+ teledon.network.protobuffprotocol.TeledonProtobufs$Donator$1
+ teledon.network.protobuffprotocol.TeledonProtobufs$Donator$Builder
+ teledon.network.protobuffprotocol.TeledonProtobufs$DonatorOrBuilder
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonRequest
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonRequest$1
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonRequest$Builder
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonRequest$PayloadCase
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonRequest$Type
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonRequest$Type$1
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonRequestOrBuilder
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonResponse
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonResponse$1
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonResponse$Builder
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonResponse$Type
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonResponse$Type$1
+ teledon.network.protobuffprotocol.TeledonProtobufs$TeledonResponseOrBuilder
+ teledon.network.protobuffprotocol.TeledonProtobufs$Voluntar
+ teledon.network.protobuffprotocol.TeledonProtobufs$Voluntar$1
+ teledon.network.protobuffprotocol.TeledonProtobufs$Voluntar$Builder
+ teledon.network.protobuffprotocol.TeledonProtobufs$VoluntarOrBuilder
+teledon/network/utils/AbstractConcurrentServer.java
+ teledon.network.utils.AbstractConcurrentServer
+teledon/network/dto/VoluntarDTO.java
+ teledon.network.dto.VoluntarDTO
+teledon/network/rpcprotocol/Request.java
+ teledon.network.rpcprotocol.Request
+ teledon.network.rpcprotocol.Request$Builder
+teledon/network/utils/AbstractServer.java
+ teledon.network.utils.AbstractServer
+teledon/network/protobuffprotocol/ProtoTeledonProxy.java
+ teledon.network.protobuffprotocol.ProtoTeledonProxy
+ teledon.network.protobuffprotocol.ProtoTeledonProxy$1
+ teledon.network.protobuffprotocol.ProtoTeledonProxy$ReaderThread
+teledon/network/protobuffprotocol/ProtoTeledonWorker.java
+ teledon.network.protobuffprotocol.ProtoTeledonWorker
+ teledon.network.protobuffprotocol.ProtoTeledonWorker$1
+teledon/network/protobuffprotocol/ProtoUtils.java
+ teledon.network.protobuffprotocol.ProtoUtils

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" value="33d96594-80e4-41f4-b617-f33f6bb21142" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/../../../TeledonPersistence/src/main/resources/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Server" removed="false">
+          <file>file://$MODULE_DIR$/../../../TeledonServer/src/main/resources/spring-server.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>

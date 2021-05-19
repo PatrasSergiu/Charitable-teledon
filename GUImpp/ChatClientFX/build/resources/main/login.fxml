@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="357.0" prefWidth="294.0" style="-fx-background-color: #364f6b; -fx-border-color: black; -fx-border-width: 2;" stylesheets="@mainLogin.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teledon.client.gui.Login">
+   <children>
+      <PasswordField fx:id="passwordTextField" layoutX="62.0" layoutY="164.0" prefHeight="45.0" prefWidth="170.0" style="-fx-background-radius: 60; -fx-border-radius: 60; -fx-border-color: #f5f5f5; -fx-background-color: #3fc1c9;" />
+      <TextField fx:id="usernameTextField" layoutX="62.0" layoutY="68.0" prefHeight="45.0" prefWidth="170.0" style="-fx-background-color: #3fc1c9; -fx-background-radius: 60; -fx-border-radius: 60; -fx-border-color: #f5f5f5;" stylesheets="@login.css">
+         <font>
+            <Font name="Century" size="14.0" />
+         </font></TextField>
+      <Label layoutX="70.0" layoutY="36.0" text="Username" textFill="#fc5185">
+         <font>
+            <Font name="Century" size="20.0" />
+         </font></Label>
+      <Label layoutX="70.0" layoutY="130.0" text="Parola" textFill="#fc5185">
+         <font>
+            <Font name="Century" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginButton" layoutX="62.0" layoutY="251.0" mnemonicParsing="false" onAction="#logInMethod" prefHeight="45.0" prefWidth="170.0" stylesheets="@mainLogin.css" text="Intra in cont" textFill="#fc5185">
+         <font>
+            <Font name="Century" size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

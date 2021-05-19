@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    compile project (':TeledonModel')
+    compile project (':TeledonServices')
+    compile project (':TeledonNetworking')
+
+    compile 'org.springframework:spring-context:5.0.4.RELEASE'
+
+}
+
+test {
+    useJUnitPlatform()
+}
+javafx {
+    version = "13"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+sourceCompatibility = 1.8
+mainClassName='teledon.client.StartProtobuffClient'
